@@ -57,3 +57,8 @@ pvs = "ipython --profile-dir=. -c 'get_pv_types(); exit()'"
 [environments]
 terminal = {features=["profile", "terminal"], solve-group="profile"}
 qs = {features=["profile", "qs"], solve-group="profile"}
+
+[dependencies]
+scikit-beam = ">=0.0.27,<0.0.28"
+
+[pypi-dependencies]
