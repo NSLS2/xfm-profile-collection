@@ -112,3 +112,6 @@ history.sqlite
 startup/README
 
 zz-dama.py
+# pixi environments
+.pixi/*
+!.pixi/config.toml
